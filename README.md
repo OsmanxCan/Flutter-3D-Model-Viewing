@@ -1,16 +1,39 @@
-# ucakmodel
+# Flutter 3D Model Viewer
 
-A new Flutter project.
+3D model viewing application developed with Flutter.
 
-## Getting Started
+## Versions
 
-This project is a starting point for a Flutter application.
+- Flutter: 3.38
+- Dart: 3.10
 
-A few resources to get you started if this is your first Flutter project:
+## Current Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- View `.glb` 3D models
+- View `.stl` 3D models
+- File picker support
+- Window management support
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Planned Features
+
+- 3D object creation
+- 3D object editing
+- Linux support
+- Improved rendering system
+
+## Platform Support
+
+Currently supported only on Windows.
+
+## Flutter Packages
+
+- path_provider
+- vector_math
+- file_picker
+- window_manager
+
+## 3D Libraries
+
+- three_js
+- three_js_simple_loaders
+- three_js_helpers
